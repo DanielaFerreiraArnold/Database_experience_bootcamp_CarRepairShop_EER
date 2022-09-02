@@ -41,21 +41,16 @@ Note: the version in English contains extra information I added to make it more 
 
 * One team can receive one or more cars.
 
-* The team will analyse and fill out a service order, so the team has a service order.
+* The team will analyse and fill out a service order.
 
-* The service order contains a numer, a date, the designated price for the repair, status, and a deadline. 
+* The service order contains a number, a date, the designated price for the repair, status, and a deadline. 
 
-* One team also has information about servece prices and car part prices, which they will use to feed the service order.
-Many teams will have access to the same one database.
-
-* There is only one database.
+* The service order also contains information about the proce of the service and the price of the car parts.
 
 * One team can be responsible for more than one service order, but one service order can only come from one team.
 
-* The client has access to the service order and the payment methods, which he/she will aprove or not.
+* The client has access to the service order, which he/she will aprove of or not.
 If he/she aproves, one or more payment methods can be chosen by one client.
-
-* Different payment methodos can be used by different clients.
 
 * Payment methods can be payment by cash, debid card, credit card, or bank transfer.
 
